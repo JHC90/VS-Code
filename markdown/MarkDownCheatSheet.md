@@ -2,8 +2,25 @@
 # 1. Table of Contents
 [Erklärung wie man TOC einfügt in VSCode](https://marketplace.visualstudio.com/items?itemName=AlanWalk.markdown-toc)
 
+ggf ein workaround in vscode => gehe in die Einstellungen von VS-Code(geh aufs zahnrad links unten :-) ), dort unter User-Settings und filtere die [eol](https://github.com/AlanWalk/markdown-toc/issues/65) heraus. Dort ändert man die default eol (end of line) in "\n\r" (standardmäßig ist auto ausgeählt). Danach klappt die Table Insection problemlos
 
-<!-- TOC -->autoauto- [1. Table of Contents](#1-table-of-contents)auto- [2. Titles](#2-titles)auto- [3. Emphasis](#3-emphasis)auto- [4. Horizontal Rule](#4-horizontal-rule)auto- [5. Formulas-Basics](#5-formulas-basics)auto- [6. Media](#6-media)auto    - [6.1. Bilder](#61-bilder)auto    - [6.2. webp.Anomation](#62-webpanomation)auto    - [6.3. Gif-Animatino](#63-gif-animatino)auto    - [6.4. Youtube-Video](#64-youtube-video)auto- [7. Links](#7-links)auto- [8. Tables](#8-tables)autoauto<!-- /TOC -->
+<!-- TOC -->
+
+- [1. Table of Contents](#1-table-of-contents)
+- [2. Titles](#2-titles)
+- [3. Emphasis](#3-emphasis)
+- [4. Horizontal Rule](#4-horizontal-rule)
+- [5. Formulas-Basics](#5-formulas-basics)
+- [6. Media](#6-media)
+  - [6.1. Bilder](#61-bilder)
+  - [6.2. webp.Anomation](#62-webpanomation)
+  - [6.3. Gif-Animatino](#63-gif-animatino)
+  - [6.4. Youtube-Video](#64-youtube-video)
+- [7. Links](#7-links)
+- [8. Tables](#8-tables)
+
+<!-- /TOC -->
+
 
 
 # 2. Titles
@@ -32,6 +49,8 @@ print(s)
 ```
 
 # 4. Horizontal Rule
+
+
 ---
 ***
 ___
