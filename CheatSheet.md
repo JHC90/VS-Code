@@ -15,9 +15,5 @@ dadurch muss nicht immer sudo vroab geschrieben werden, bevor man mit Docker Arb
     <td>Öffnet eine Konsole auf dem Gerät auf dem das aktuelle VSCode aktiv ist</td>
     <td></td>
   </tr>
-  <tr>
-    <td>kubectl get all</td>
-    <td>LAlle Objekte von dem K8S Cluster</td>
-    <td></td>
-  </tr>
 <table>
+
