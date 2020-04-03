@@ -7,19 +7,33 @@ ggf ein workaround in vscode => gehe in die Einstellungen von VS-Code(geh aufs z
 <!-- TOC -->
 
 - [1. Table of Contents](#1-table-of-contents)
+- [Links mit anker](#links-mit-anker)
+  - [in diesem Markdown](#in-diesem-markdown)
+  - [externes Markdown](#externes-markdown)
 - [2. Titles](#2-titles)
 - [3. Emphasis](#3-emphasis)
 - [4. Horizontal Rule](#4-horizontal-rule)
 - [5. Formulas-Basics](#5-formulas-basics)
-- [6. Media](#6-media)
-  - [6.1. Bilder](#61-bilder)
-  - [6.2. webp.Anomation](#62-webpanomation)
-  - [6.3. Gif-Animatino](#63-gif-animatino)
-  - [6.4. Youtube-Video](#64-youtube-video)
-- [7. Links](#7-links)
-- [8. Tables](#8-tables)
+- [6. Listen](#6-listen)
+- [7. Media](#7-media)
+  - [7.1. Bilder](#71-bilder)
+  - [7.2. webp.Anomation](#72-webpanomation)
+  - [7.3. Gif-Animatino](#73-gif-animatino)
+  - [7.4. Youtube-Video](#74-youtube-video)
+- [8. Links](#8-links)
+- [9. Tables](#9-tables)
 
 <!-- /TOC -->
+
+# Links mit anker 
+## in diesem Markdown
+
+hier gehts ans  [Ende](#pookie) des Files. Logischerweise muss dann der anker auch am Ende des Raw-Files existieren
+
+## externes Markdown
+[LinkToHEADinExternalMarkDown](./DestinationMarkDownCheatSheet.md#pookieHead)
+[LinkToMEDIUMinExternalMarkDown](./DestinationMarkDownCheatSheet.md#pookieMedium)
+[LinkToENDinExternalMarkDown MIt HTML Referenz](./DestinationMarkDownCheatSheet.md#pookieEnd)
 
 
 
@@ -39,14 +53,40 @@ Combined emphasis with **asterisks and _underscores_**.
 
 Strikethrough uses two tildes. ~~Scratch this.~~
 
+superscript^2^
+
+subscript~2~
+
+
 > Coding section
 
 Inline `code` has `back-ticks around` it.
+
+```
+Plain Code Block
+```
+
+`Plain Code Block`
 
 ```python
 s = "Python syntax highlighting"
 print(s)
 ```
+
+<center>Dieser Text wird zentriert ausgegeben<br>Dieser Text wird <br>zentriert<br> ausgegeben.</center>
+
+linksbündig braucht keine Formatierung
+
+<div style="text-align: right"> hier ist rechtsbündiger Text </div>
+<br>
+
+
+
+
+<div style="text-align: justify"> Hier ist Blocksatz, Hier ist Blocksatz, Hier ist Blocksatz, Hier ist Blocksatz, Hier ist Blocksatz, Hier ist Blocksatz, Hier ist Blocksatz, Hier ist Blocksatz, Hier ist Blocksatz, Hier ist Blocksatz, Hier ist Blocksatz, Hier ist Blocksatz, Hier ist Blocksatz, Hier ist Blocksatz, Hier ist Blocksatz, Hier ist Blocksatz, Hier ist Blocksatz, Hier ist Blocksatz, Hier ist Blocksatz, Hier ist Blocksatz, Hier ist Blocksatz,  </div>
+
+
+
 
 # 4. Horizontal Rule
 
@@ -60,19 +100,39 @@ ___
   $$1+1$$
 * Summenzeichen 
 
+%5Cfrac%7B%5Csigma%7D%7B%5Cmu%7D
+
 Sum $\sum_{n=1}^{\infty} 2^{-n} = 1$ inside text	
 
-# 6. Media
-## 6.1. Bilder
+hier hab ich das Problem, dass Github diese inline Latex nicht sauber übernimmt. Die github lösung wäre
+
+<img src="https://render.githubusercontent.com/render/math?math=\sum_{n=1}^{\infty} 2^{-n} = 1">
+
+# 6. Listen
+* Item 1
+* Item 2
+    + Item 2a
+    + Item 2b
+
+1. Item 1
+2. Item 2
+3. Item 3
+    + Item 3a
+    + Item 3b
+
+
+
+# 7. Media
+## 7.1. Bilder
 ![bild](./imgs/MarkdownPasterConfigPicture.PNG)
-## 6.2. webp.Anomation
+## 7.2. webp.Anomation
 ![webp.Anomation](./imgs/test.webp)
-## 6.3. Gif-Animatino
+## 7.3. Gif-Animatino
 ![webp.Anomation](./imgs/DemoGif.gif)
-## 6.4. Youtube-Video
+## 7.4. Youtube-Video
 [![Everything Is AWESOME](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=StTqXEQ2l-Y "Everything Is AWESOME")
 
-# 7. Links
+# 8. Links
 [I'm an inline-style link](https://www.google.com)
 
 [I'm an inline-style link with title- Beim hovern kommt eine Bezeichnung](https://www.google.com "Google's Homepage")
@@ -92,11 +152,14 @@ example.com (but not on Github, for example).
 
 Some text to show that the reference links can follow later.
 
+<a href="http://www.google.de"><img src=./imgs/2020-03-31-16-49-13.png></a>
+
+
 [arbitrary case-insensitive reference text]: https://www.mozilla.org
 [1]: http://slashdot.org
 [link text itself]: http://www.reddit.com
 
-# 8. Tables
+# 9. Tables
 
 Colons can be used to align columns.
 
@@ -114,3 +177,13 @@ Markdown | Less | Pretty
 --- | --- | ---
 *Still* | `renders` | **nicely**
 1 | 2 | 3
+
+**Ausrichtunng des Textes innerhalb der Zelle**
+
+| Spalte 1 | Spalte 2 | Spalte 3 | Spalte 4 |
+| :-: | :- | -: | - |
+| Zentriert | Linksbündig | Rechtsbündig | Standard |
+|Mehrfachspalten werden allerdings nicht unterstützt|
+
+
+<a name="pookie"></a>
