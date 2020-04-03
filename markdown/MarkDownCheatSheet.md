@@ -7,9 +7,6 @@ ggf ein workaround in vscode => gehe in die Einstellungen von VS-Code(geh aufs z
 <!-- TOC -->
 
 - [1. Table of Contents](#1-table-of-contents)
-- [Links mit anker](#links-mit-anker)
-  - [in diesem Markdown](#in-diesem-markdown)
-  - [externes Markdown](#externes-markdown)
 - [2. Titles](#2-titles)
 - [3. Emphasis](#3-emphasis)
 - [4. Horizontal Rule](#4-horizontal-rule)
@@ -21,19 +18,14 @@ ggf ein workaround in vscode => gehe in die Einstellungen von VS-Code(geh aufs z
   - [7.3. Gif-Animatino](#73-gif-animatino)
   - [7.4. Youtube-Video](#74-youtube-video)
 - [8. Links](#8-links)
+- [Links mit anker](#links-mit-anker)
+  - [innerhalb Markdown](#innerhalb-markdown)
+  - [externes Markdown](#externes-markdown)
 - [9. Tables](#9-tables)
 
 <!-- /TOC -->
 
-# Links mit anker 
-## in diesem Markdown
 
-hier gehts ans  [Ende](#pookie) des Files. Logischerweise muss dann der anker auch am Ende des Raw-Files existieren
-
-## externes Markdown
-[LinkToHEADinExternalMarkDown](./DestinationMarkDownCheatSheet.md#pookieHead)
-[LinkToMEDIUMinExternalMarkDown](./DestinationMarkDownCheatSheet.md#pookieMedium)
-[LinkToENDinExternalMarkDown MIt HTML Referenz](./DestinationMarkDownCheatSheet.md#pookieEnd)
 
 
 
@@ -158,6 +150,16 @@ Some text to show that the reference links can follow later.
 [arbitrary case-insensitive reference text]: https://www.mozilla.org
 [1]: http://slashdot.org
 [link text itself]: http://www.reddit.com
+
+# Links mit anker 
+## innerhalb Markdown
+
+hier gehts ans  [Ende](#pookie) des Files. Logischerweise muss dann der anker auch am Ende des Raw-Files existieren
+
+## externes Markdown
+[LinkToHEADinExternalMarkDown](./DestinationMarkDownCheatSheet.md#pookieHead)
+[LinkToMEDIUMinExternalMarkDown](./DestinationMarkDownCheatSheet.md#pookieMedium)
+[LinkToENDinExternalMarkDown MIt HTML Referenz](./DestinationMarkDownCheatSheet.md#pookieEnd)
 
 # 9. Tables
 
