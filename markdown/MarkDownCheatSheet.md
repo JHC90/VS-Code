@@ -19,7 +19,8 @@ ggf ein workaround in vscode => gehe in die Einstellungen von VS-Code(geh aufs z
   - [7.4. Youtube-Video](#74-youtube-video)
 - [8. Links](#8-links)
 - [Links mit anker](#links-mit-anker)
-  - [innerhalb Markdown](#innerhalb-markdown)
+  - [Basics](#basics)
+  - [innerhalb dieses Markdowns](#innerhalb-dieses-markdowns)
   - [externes Markdown](#externes-markdown)
 - [9. Tables](#9-tables)
 
@@ -152,13 +153,20 @@ Some text to show that the reference links can follow later.
 [link text itself]: http://www.reddit.com
 
 # Links mit anker 
-## innerhalb Markdown
+
+## Basics
+[Ende](#Anker)
+<a name="Anker"></a>
+[BasicExternal](./NAMEDESTINATION.md#External)
+<a name="External"></a>
+
+## innerhalb dieses Markdowns
 
 hier gehts ans  [Ende](#pookie) des Files. Logischerweise muss dann der anker auch am Ende des Raw-Files existieren
 
 ## externes Markdown
-[LinkToHEADinExternalMarkDown](./DestinationMarkDownCheatSheet.md#pookieHead)
-[LinkToMEDIUMinExternalMarkDown](./DestinationMarkDownCheatSheet.md#pookieMedium)
+[LinkToHEADinExternalMarkDown](./DestinationMarkDownCheatSheet.md#pookieHead)<br>
+[LinkToMEDIUMinExternalMarkDown](./DestinationMarkDownCheatSheet.md#pookieMedium)<br>
 [LinkToENDinExternalMarkDown MIt HTML Referenz](./DestinationMarkDownCheatSheet.md#pookieEnd)
 
 # 9. Tables
